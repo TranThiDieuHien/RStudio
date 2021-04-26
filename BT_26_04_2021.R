@@ -51,7 +51,8 @@ Bang_ttich <- data.frame(Radius=R, Volume=V)
 
 ##Bai 6
 #Dung sapply(..., is.factor), sapply(..., is.ordered)
-sapply(Bang_ttich, is.factor)
+sapply(Bang_ttich, is.factor) #kiem tra moi cot co phai factor khong
+sapply(Bang_ttich, factor) #chuyen
 #or
 sapply(Bang_ttich, is.ordered)
 #Dung is.ordered or is.factor
